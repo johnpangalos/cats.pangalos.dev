@@ -59,7 +59,7 @@
 
 <div class="relative h-screen w-full">
   <div
-    class="w-full flex flex-col bg-red-700 items-center pt-6 uppercase font-sans h-full"
+    class="w-full flex flex-col bg-red-700 items-center pt-6 uppercase font-sans min-h-full"
   >
     <h1 class="text-xl md:text-3xl font-display py-10">cats.pangalos.dev</h1>
     <Intro />
