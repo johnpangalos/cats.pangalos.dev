@@ -61,7 +61,9 @@
   <div
     class="w-full flex flex-col bg-red-700 items-center pt-6 uppercase font-sans min-h-full"
   >
-    <h1 class="text-xl md:text-3xl font-display py-10">cats.pangalos.dev</h1>
+    <h1 class="text-xl md:text-3xl font-display py-10 text-white">
+      cats.pangalos.dev
+    </h1>
     <Intro />
     <div class="pt-6 space-y-4">
       {#each $cats as cat}
