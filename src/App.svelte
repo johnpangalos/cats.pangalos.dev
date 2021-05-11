@@ -59,8 +59,9 @@
 
 <div class="relative h-screen w-full">
   <div
-    class="w-full flex flex-col items-center bg-white pt-6 uppercase font-serif"
+    class="w-full flex flex-col bg-red-700 items-center pt-6 uppercase font-sans h-full"
   >
+    <h1 class="text-xl md:text-3xl font-display py-10">cats.pangalos.dev</h1>
     <Intro />
     <div class="pt-6 space-y-4">
       {#each $cats as cat}
@@ -70,7 +71,7 @@
       <div id="end" />
       {#if loading}
         <div class="pt-10">
-          <div class="animate-spin text-red-700 text-3xl font-bold">
+          <div class="animate-spin text-white text-3xl font-bold">
             Loading...
           </div>
         </div>
